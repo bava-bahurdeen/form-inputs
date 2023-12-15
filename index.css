@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.input-container{
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 10em;
+}
+input{
+  width: 250px;
+  height: 35px;
+  font-size: 14px;
+  padding-left: 28px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+outline: none;
+ 
+}
+
+.effective-input{
+
+display: flex;
+flex-direction: column;
+gap: 20px;
+max-width:100%;
+}
+.one>input{
+  border:1px solid rgb(35, 197, 35) 
+}
+.two>input{
+  border:1px solid yellow; 
+}
+.three>input{
+  border:1px solid red;
+}
+.status-1{
+  color: lightgrey;
+  margin-top: 0;
+}
+.status-2{
+  color: lightgreen
+}   .status-3{
+  color: yellow;
+}   .status-4{
+  color: red;
+}
